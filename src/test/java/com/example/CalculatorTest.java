@@ -27,6 +27,6 @@ class CalculatorTest {
         int result = calc.subtract(3, 5);
 
         //then
-        assertEquals(8, result);
+        assertEquals(-2, result);
     }
 }
