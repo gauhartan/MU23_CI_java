@@ -29,4 +29,28 @@ class CalculatorTest {
         //then
         assertEquals(-1, result);
     }
+
+    @org.junit.jupiter.api.Test
+    void canMult() {
+        //given
+        Calculator calc = new Calculator();
+
+        //when
+        int result = calc.multiply(4, 5);
+
+        //then
+        assertEquals(18, result);
+    }
+
+    @org.junit.jupiter.api.Test
+    void canDiv() {
+        //given
+        Calculator calc = new Calculator();
+
+        //when
+        int result = calc.divide(10, 5);
+
+        //then
+        assertEquals(1, result);
+    }
 }
