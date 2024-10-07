@@ -24,9 +24,9 @@ class CalculatorTest {
         Calculator calc = new Calculator();
 
         //when
-        int result = calc.subtract(3, 5);
+        int result = calc.subtract(4, 5);
 
         //then
-        assertEquals(-2, result);
+        assertEquals(-1, result);
     }
 }
