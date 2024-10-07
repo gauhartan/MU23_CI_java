@@ -39,7 +39,7 @@ class CalculatorTest {
         int result = calc.multiply(4, 5);
 
         //then
-        assertEquals(18, result);
+        assertEquals(20, result);
     }
 
     @org.junit.jupiter.api.Test
@@ -51,6 +51,6 @@ class CalculatorTest {
         int result = calc.divide(10, 5);
 
         //then
-        assertEquals(1, result);
+        assertEquals(2, result);
     }
 }
